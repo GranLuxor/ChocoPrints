@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorFondo"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -20,45 +19,11 @@
 
         </fragment>
 
-        <ScrollView
+
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" >
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/maximo"
-                    android:src="@drawable/info_1"/>
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/maximo"
-                    android:src="@drawable/info_2"/>
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/maximo"
-                    android:src="@drawable/info_3"/>
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/maximo"
-                    android:src="@drawable/info_4"/>
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/maximo"
-                    android:src="@drawable/info_5"/>
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/maximo"
-                    android:src="@drawable/info_6"/>
-            </LinearLayout>
-        </ScrollView>
-
+            android:layout_height="match_parent"
+            android:src="@drawable/info_1"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

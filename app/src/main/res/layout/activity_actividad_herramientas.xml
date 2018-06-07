@@ -5,5 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ActividadHerramientas">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu"
+            android:name="com.example.paulo.chocoprints.Menu"
+            tools:layout="@layout/fragment_menu">
 
+        </fragment>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/herramientas">
+
+        </RelativeLayout>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
